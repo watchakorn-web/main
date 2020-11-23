@@ -162,6 +162,7 @@ ul.menu{
     width: 350px;
     padding: 8px;
 }
+
 .contact_area button{
     padding:10px;
     width: 120px;
@@ -327,14 +328,20 @@ footer p {
     .contact_area{
         text-align: center;
         font-size: 1.25rem;
+        
     }
     .contact_area h1{
         font-size: 2rem;
-        margin:20px auto;
+    }
+    .contact_area input{
+        width: 80%;
+    }
+    .contact_area textarea{width: 320px;}
+    footer {
+        width: 89%;
     }
     footer p{
         justify-items: center;
         margin: 10px auto;
     }
-
 }
