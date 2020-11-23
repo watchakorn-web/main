@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300&display=swap');
+body,button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.menubar{
+    width: 100%;
+    height: 60px;
+    background: #ffff;
+    box-shadow: 0 0 10px #d6d6d6;
+}
+.menubar .logo{
+    float: left;
+    padding-top: 10px;
+}
+.menubar h1{
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.menubar ul.menu{
+    list-style: none;
+    float: right;
+}
+.menubar ul.menu li{
+    float: left;
+    margin-right:20px;
+}
+.menubar ul.menu li a{
+    text-decoration: none;
+    color:#333;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+.menubar ul.menu li a:hover{
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;}
+
+.header{
+        width:100%;
+        background: url(../img/bg.jpg)no-repeat;
+        height: 450px;
+        background-size: cover;
+        background-position: center center;
+
+    }
+.header_area{
+    padding-top: 150px ;
+    width:860px;
+    margin: 0 auto;
+    text-align: center;
+    color:#ffff;
+    text-shadow: 0 3px 3px #333333;
+    }
+.header_area h1{
+    margin: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+.header_area p {
+    margin: 0 auto;
+    width: 660px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.info1{
+    width: 100%;
+    height: 400px;
+    background: #ffff;
+}
+.info1_area{
+    color: #333333;
+}
+.info1_area img{
+    margin-top: 80px;
+    float: left;
+}
+.info1_area .info1_text {
+    float: left;
+    margin-left:70px;
+    margin-top:140px;
+    width: 480px;
+    text-align: center;   
+}
+.info1_area h1{
+    margin: 0;
+}
+.info2{
+    width: 100%;
+    height: 350px;
+    background: #11447e;
+}
+.info2_area{
+    color: #ffff;
+}
+.info2_area img{
+    margin-top: 48px;
+    float: right;
+}
+.info2_area .info2_text {
+    float: left;
+    margin-left:100px;
+    margin-top:122px;
+    width: 480px;
+    text-align: center;   
+}
+.info2_area h1{
+    margin: 0;
+}
+
+.contact{
+    width: 100%;
+    height: 515px;
+    font-weight:normal;
+}
+.contact_area h1{
+    font-weight:normal;
+}
+
+.contact_area input{
+    margin: 10px 0;
+    border:1px solid #cbcbcb;
+    width: 350px;
+    padding: 8px;
+    border-radius:5px;
+}
+.contact_area input::placeholder,.contact_area textarea::placeholder{
+    font-family: 'Kanit', sans-serif;
+    font-weight: normal;
+}
+.contact_area textarea{
+    border-radius:5px;
+    margin: 10px 0;
+    border:1px solid #cbcbcb;
+    width: 350px;
+    padding: 8px;
+}
+.contact_area button{
+    padding:10px;
+    width: 120px;
+    background: #333333;
+    color:#ffff;
+    border:2px solid transparent;
+    transition:all 0.3s ease;
+    cursor: pointer;
+}
+.contact_area button:hover{
+ 
+    background: #ffff;
+    color: #333333;;
+    border:2px solid #333333;
+
+    transition:all 0.3s ease;
+}
+
+footer {
+    margin-top: 60px;
+    width: 100%;
+    height: 50px;
+    background: #333333;
+    padding: 10px;
+}
+footer p {
+    text-align: center;
+    color: #ffff;
+}
+
+
+
+
+
+
