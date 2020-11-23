@@ -86,8 +86,6 @@ ul.menu{
 }
 
 .info1_area{
-    
-    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
@@ -131,13 +129,15 @@ ul.menu{
     text-align: center;   
 }
 
-.contact{
+.contact_area{
+    display: grid;
+    grid-template-columns:1fr;
+    justify-items: center;
     margin-top: 3rem;
     width: 100%;
     height: auto;
     font-weight:normal;
-    display: grid;
-    grid-template-columns:1fr;
+   
 }
 .contact_area h1{
     font-size: 2rem;
@@ -188,6 +188,7 @@ footer {
     background: #333333;
     padding-top: 10px;
     justify-items: center;
+    padding: 20px;
 }
 footer p {
     color: #ffff;
