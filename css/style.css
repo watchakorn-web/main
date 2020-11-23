@@ -2,7 +2,7 @@
 *{    margin: 0;
     list-style: none;
     padding: 0;}
-body,button {
+body,.button {
     font-family: 'Kanit', sans-serif;
 }
 
@@ -137,6 +137,7 @@ ul.menu{
     width: 100%;
     height: auto;
     font-weight:normal;
+    padding-bottom: 20%;
    
 }
 .contact_area h1{
@@ -163,7 +164,7 @@ ul.menu{
     padding: 8px;
 }
 
-.contact_area button{
+.contact_area .button{
     padding:10px;
     width: 120px;
     background: #333333;
@@ -172,7 +173,7 @@ ul.menu{
     transition:all 0.3s ease;
     cursor: pointer;
 }
-.contact_area button:hover{
+.contact_area .button:hover{
  
     background: #ffff;
     color: #333333;;
@@ -181,6 +182,9 @@ ul.menu{
 }
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin-top: 60px;
@@ -189,7 +193,7 @@ footer {
     background: #333333;
     padding-top: 10px;
     justify-items: center;
-    padding: 20px;
+    padding: 5px;
 }
 footer p {
     color: #ffff;
