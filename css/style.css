@@ -132,6 +132,7 @@ ul.menu{
 }
 
 .contact{
+    margin-top: 3rem;
     width: 100%;
     height: auto;
     font-weight:normal;
@@ -139,6 +140,7 @@ ul.menu{
     grid-template-columns:1fr;
 }
 .contact_area h1{
+    font-size: 2rem;
     font-weight:normal;
 }
 
@@ -238,10 +240,11 @@ footer p {
     .info2_area .info2_text {
         margin:auto;
         height: auto;
-        float: ;
+        float: none;
         text-align: center;   
     }
     .contact_area{
+        
         text-align: center;
         font-size: 1.25rem;
     }
@@ -317,7 +320,7 @@ footer p {
     .info2_area .info2_text {
         margin:auto;
         height: auto;
-        float: ;
+        float: none;
         text-align: center;   
     }
     .contact_area{
