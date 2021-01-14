@@ -21,7 +21,7 @@ body,.button {
 }
 ul.menu{
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     margin-top:2% ;
 }
@@ -169,6 +169,7 @@ ul.menu{
     width: 120px;
     background: #333333;
     color:#ffff;
+    border-radius: 5px;
     border:2px solid transparent;
     transition:all 0.3s ease;
     cursor: pointer;
@@ -180,6 +181,16 @@ ul.menu{
     border:2px solid #333333;
     transition:all 0.3s ease;
 }
+.contact_area .button a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+.contact_area .button a:hover{
+    color:#333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;}
 
 footer {
     position: fixed;
@@ -335,14 +346,18 @@ footer p {
         
     }
     .contact_area h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+    .contact_area p {
+        font-size: 0.8rem;
     }
     .contact_area input{
         width: 80%;
     }
     .contact_area textarea{width: 320px;}
     footer {
-        width: 89%;
+        font-size: 13px;
+        width: 100%;
     }
     footer p{
         justify-items: center;
